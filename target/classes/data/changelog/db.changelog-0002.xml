@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet author="imtiaz" id="14">
+        <insert tableName="item">
+            <column name="category" value="Phone"/>
+            <column name="date" value="2019-3-1"/>
+            <column name="price" value="Rs. 50,00"/>
+            <column name="item_name"
+                    value="OPPO A37"/>
+            <column name="location" value="PECHS Block 6"/>
+            <column name="phone_number" value="03002639694"/>
+            <column name="images" value="images/products/1.jpg"/>
+            <column name="publisher_Id" value="Imtiaz Ali"/>
+            <column name="description" value="This is mobile"/>
+            <column name="active" valueBoolean="true"/>
+        </insert>
+
+        <insert tableName="item">
+
+            <column name="category" value="Phone"/>
+            <column name="date" value="2019-3-1"/>
+            <column name="price" value="Rs. 50,00"/>
+            <column name="item_name"
+                    value="OPPO A37"/>
+            <column name="location" value="PECHS Block 6"/>
+            <column name="phone_number" value="03002639694"/>
+            <column name="images" value="images/products/1.jpg"/>
+            <column name="publisher_Id" value="Imtiaz Ali"/>
+            <column name="description" value="This is mobile"/>
+            <column name="active" valueBoolean="true"/>
+
+        </insert>
+
+        <insert tableName="item">
+
+            <column name="category" value="Phone"/>
+            <column name="date" value="2019-3-1"/>
+            <column name="price" value="Rs. 50,00"/>
+            <column name="item_name"
+                    value="OPPO A37"/>
+            <column name="location" value="PECHS Block 6"/>
+            <column name="phone_number" value="03002639694"/>
+            <column name="images" value="images/products/1.jpg"/>
+            <column name="publisher_Id" value="Imtiaz Ali"/>
+            <column name="description" value="This is mobile"/>
+            <column name="active" valueBoolean="true"/>
+
+        </insert>
+    </changeSet>
+</databaseChangeLog>

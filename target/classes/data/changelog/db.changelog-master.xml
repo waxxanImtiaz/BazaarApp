@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+    <include file="db.changelog-0001.xml" relativeToChangelogFile="true"/>
+    <include file="db.changelog-0002.xml" relativeToChangelogFile="true"/>
+
+<!--    <include file="db.changelog-0003.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0004.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0005.xml" relativeToChangelogFile="true"/>-->
+
+<!--    <include file="db.changelog-0006.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0007.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0008.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0009.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="./tables/db.changelog-0012.xml" relativeToChangelogFile="true"/>-->
+
+<!--    <include file="./tables/db.changelog-0013.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="./insert/db.changelog-insert-001.xml" relativeToChangelogFile="true"/>-->
+<!--    <include file="db.changelog-0011.xml" relativeToChangelogFile="true"/>-->
+</databaseChangeLog>

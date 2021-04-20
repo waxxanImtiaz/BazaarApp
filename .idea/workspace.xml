@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9603421-6c0d-4cca-8e31-eef0e2407455" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bazaar/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bazaar/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bazaar/repositories/CategoryItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bazaar/repositories/CategoryItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/changelog/db.changelog-master.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/springboot$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1554012733655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bazaar.custom.exceptions.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../BazaarApp\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="d481569f-10da-4f3f-9f0f-020a0071c7e5" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1V0u2tkqEnI1eNuMSA32YHFMB0o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554102376995" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Practice/BazaarApp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bazaar.controllers" />
+      <recent name="bazaar.api" />
+      <recent name="bazaar.services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bazaar.beans" />
+      <recent name="bazaar.entities" />
+      <recent name="bazaar.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Files\intellij\springbootprojects\src\main\resources\public" />
+      <recent name="D:\My Files\intellij\springbootprojects\src\main\resources\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My Files\Bazaar\BazaarApp\src\main\resources\data\changelog\insert" />
+      <recent name="E:\My Files\Bazaar\BazaarApp\src\main\resources\data\changelog\tables" />
+      <recent name="D:\My Files\Bazaar\BazaarApp\src\main\resources\public\widgets\signup" />
+      <recent name="D:\My Files\intellij\springbootprojects\src\main\resources\public" />
+      <recent name="D:\My Files\intellij\springbootprojects\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn run" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bazaar.Driver" />
+      <module name="BazaarApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bazaar.custom.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bazaar.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bazaar.api" />
+      <option name="MAIN_CLASS_NAME" value="bazaar.api.BaseExecutorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.getCategoryList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bazaar.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bazaar.controllers" />
+      <option name="MAIN_CLASS_NAME" value="bazaar.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="getCategoryList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8111/springboot/spring-boot/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Driver" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bazaar.custom.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bazaar.Driver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerFile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="DockerFile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Driver" />
+      <item itemvalue="Docker.DockerFile" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JUnit.BaseExecutorTest" />
+      <item itemvalue="JUnit.ItemControllerTest.getCategoryList" />
+      <item itemvalue="Spring Boot.Driver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Spring Boot.Driver" />
+        <item itemvalue="JUnit.ItemControllerTest.getCategoryList" />
+        <item itemvalue="JUnit.BaseExecutorTest" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9603421-6c0d-4cca-8e31-eef0e2407455" name="Default Changelist" comment="" />
+      <created>1547969733254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547969733254</updated>
+      <workItem from="1547969780089" duration="12990000" />
+      <workItem from="1549820124484" duration="1742000" />
+      <workItem from="1549860800074" duration="97000" />
+      <workItem from="1550308329319" duration="31584000" />
+      <workItem from="1550464077758" duration="1907000" />
+      <workItem from="1550473835165" duration="1587000" />
+      <workItem from="1550912808181" duration="30644000" />
+      <workItem from="1551155189151" duration="859000" />
+      <workItem from="1551185172654" duration="896000" />
+      <workItem from="1551330365456" duration="241000" />
+      <workItem from="1551330676542" duration="376000" />
+      <workItem from="1551599739026" duration="517000" />
+      <workItem from="1553062436575" duration="7422000" />
+      <workItem from="1553840483878" duration="8258000" />
+      <workItem from="1553861361695" duration="36962000" />
+      <workItem from="1554535557619" duration="656000" />
+      <workItem from="1555994693596" duration="148000" />
+      <workItem from="1558001675479" duration="803000" />
+      <workItem from="1558378324479" duration="297000" />
+      <workItem from="1558532927787" duration="655000" />
+      <workItem from="1558544159409" duration="343000" />
+      <workItem from="1558544627481" duration="1811000" />
+      <workItem from="1559228150145" duration="601000" />
+      <workItem from="1560163766108" duration="2816000" />
+      <workItem from="1560836874113" duration="631000" />
+      <workItem from="1560838265804" duration="5720000" />
+      <workItem from="1561004903740" duration="3698000" />
+      <workItem from="1561055381119" duration="780000" />
+      <workItem from="1561095022000" duration="925000" />
+      <workItem from="1561100054884" duration="665000" />
+      <workItem from="1561112911122" duration="1616000" />
+      <workItem from="1561287190128" duration="693000" />
+      <workItem from="1561350338369" duration="2350000" />
+      <workItem from="1561357492592" duration="1124000" />
+      <workItem from="1561699193254" duration="43000" />
+      <workItem from="1561699248301" duration="11000" />
+      <workItem from="1561699272719" duration="19000" />
+      <workItem from="1561699325362" duration="2923000" />
+      <workItem from="1561806800383" duration="3856000" />
+      <workItem from="1561830967809" duration="12044000" />
+      <workItem from="1561955274056" duration="1545000" />
+      <workItem from="1561999158000" duration="5124000" />
+      <workItem from="1562042992257" duration="4078000" />
+      <workItem from="1562048702592" duration="11000" />
+      <workItem from="1562048728301" duration="42000" />
+      <workItem from="1562048932044" duration="5000" />
+      <workItem from="1562048943036" duration="5000" />
+      <workItem from="1562048965597" duration="4000" />
+      <workItem from="1562048983899" duration="65000" />
+      <workItem from="1562049081155" duration="1064000" />
+      <workItem from="1562167760657" duration="595000" />
+      <workItem from="1562216339772" duration="594000" />
+      <workItem from="1562219380564" duration="19000" />
+      <workItem from="1562253933262" duration="4269000" />
+      <workItem from="1562300970418" duration="228000" />
+      <workItem from="1562409065469" duration="1590000" />
+      <workItem from="1562485924278" duration="6796000" />
+      <workItem from="1562562609131" duration="598000" />
+      <workItem from="1562567279994" duration="190000" />
+      <workItem from="1562567692390" duration="53000" />
+      <workItem from="1562567821676" duration="11000" />
+      <workItem from="1562568033352" duration="102000" />
+      <workItem from="1562579098677" duration="1350000" />
+      <workItem from="1562647700619" duration="122000" />
+      <workItem from="1563003347916" duration="1571000" />
+      <workItem from="1563122131618" duration="1220000" />
+      <workItem from="1563170625204" duration="53000" />
+      <workItem from="1563444590887" duration="254000" />
+      <workItem from="1563692225539" duration="2111000" />
+      <workItem from="1563799654074" duration="430000" />
+      <workItem from="1563800131467" duration="717000" />
+      <workItem from="1563857043193" duration="46000" />
+      <workItem from="1564746678094" duration="1247000" />
+      <workItem from="1564748629028" duration="24000" />
+      <workItem from="1564748704489" duration="1768000" />
+      <workItem from="1564835151230" duration="4757000" />
+      <workItem from="1564981379374" duration="749000" />
+      <workItem from="1569858967509" duration="1535000" />
+      <workItem from="1569861375653" duration="4000" />
+      <workItem from="1569861389102" duration="5363000" />
+      <workItem from="1569941954391" duration="7672000" />
+      <workItem from="1571163367321" duration="46000" />
+      <workItem from="1571163422239" duration="1922000" />
+      <workItem from="1571202302577" duration="46000" />
+      <workItem from="1571212204276" duration="257000" />
+      <workItem from="1571579229080" duration="60000" />
+      <workItem from="1571680257123" duration="176000" />
+      <workItem from="1576402135178" duration="1788000" />
+      <workItem from="1576470504094" duration="2949000" />
+      <workItem from="1576510251005" duration="1961000" />
+      <workItem from="1576558733154" duration="2448000" />
+      <workItem from="1576577520812" duration="1201000" />
+      <workItem from="1576598759655" duration="2910000" />
+      <workItem from="1576650587437" duration="51000" />
+      <workItem from="1576652420565" duration="45000" />
+      <workItem from="1576652474924" duration="50000" />
+      <workItem from="1576653031924" duration="1924000" />
+      <workItem from="1576684409647" duration="633000" />
+      <workItem from="1576731046957" duration="165000" />
+      <workItem from="1577546297661" duration="2541000" />
+      <workItem from="1577680541366" duration="175000" />
+      <workItem from="1577860638940" duration="2104000" />
+      <workItem from="1577892452586" duration="1363000" />
+      <workItem from="1577941283753" duration="1279000" />
+      <workItem from="1579159776632" duration="2337000" />
+      <workItem from="1579236513733" duration="1256000" />
+      <workItem from="1581405971351" duration="905000" />
+      <workItem from="1584959894572" duration="1914000" />
+      <workItem from="1585214943013" duration="1251000" />
+      <workItem from="1585399021342" duration="52000" />
+      <workItem from="1585490251813" duration="1929000" />
+      <workItem from="1585576510708" duration="1174000" />
+      <workItem from="1585654678186" duration="9717000" />
+      <workItem from="1585730241632" duration="13635000" />
+      <workItem from="1585812543542" duration="1765000" />
+      <workItem from="1593855827795" duration="3056000" />
+      <workItem from="1593941919462" duration="597000" />
+      <workItem from="1594010882077" duration="729000" />
+      <workItem from="1594496425341" duration="827000" />
+      <workItem from="1594549111036" duration="2319000" />
+      <workItem from="1594566855237" duration="467000" />
+      <workItem from="1594627719270" duration="20000" />
+      <workItem from="1594806016747" duration="1028000" />
+      <workItem from="1599025595616" duration="619000" />
+      <workItem from="1599391103470" duration="2749000" />
+      <workItem from="1603101146726" duration="2064000" />
+      <workItem from="1603172104374" duration="1883000" />
+      <workItem from="1603385867735" duration="2407000" />
+      <workItem from="1603429499583" duration="1581000" />
+      <workItem from="1603457276785" duration="1918000" />
+      <workItem from="1603563110042" duration="437000" />
+      <workItem from="1603611764268" duration="2182000" />
+      <workItem from="1603636040468" duration="594000" />
+      <workItem from="1604469986848" duration="1374000" />
+      <workItem from="1610868503703" duration="1752000" />
+      <workItem from="1616504834271" duration="1342000" />
+      <workItem from="1616562483607" duration="800000" />
+      <workItem from="1616572439051" duration="630000" />
+      <workItem from="1616574310629" duration="604000" />
+      <workItem from="1616593159536" duration="255000" />
+      <workItem from="1616655847925" duration="5400000" />
+      <workItem from="1616686239833" duration="855000" />
+      <workItem from="1616737166137" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="setting products">
+      <created>1550423712492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550423712513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Login form is created">
+      <created>1550949985608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550949985608</updated>
+    </task>
+    <task id="LOCAL-00003" summary="search field is completed">
+      <created>1551024628214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551024628214</updated>
+    </task>
+    <task id="LOCAL-00004" summary="search field is completed">
+      <created>1553063445896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553063445896</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Spring data implemented using mysql">
+      <created>1553857074323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553857074324</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implementing search">
+      <created>1553861022619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861022619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implementing search is completed">
+      <created>1553931095158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553931095158</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implementing search is completed">
+      <created>1553931527276</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553931527276</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implementing search is completed">
+      <created>1553931927914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553931927914</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implementing search is completed">
+      <created>1553940783902</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553940783903</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implementing search is completed">
+      <created>1553941201568</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553941201568</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementing search is completed">
+      <created>1553941557074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553941557074</updated>
+    </task>
+    <task id="LOCAL-00013" summary="creating singup">
+      <created>1553944783416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553944783416</updated>
+    </task>
+    <task id="LOCAL-00014" summary="creating singup">
+      <created>1553946927778</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553946927778</updated>
+    </task>
+    <task id="LOCAL-00015" summary="singup created">
+      <created>1554010906358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554010906358</updated>
+    </task>
+    <task id="LOCAL-00016" summary="singup created">
+      <created>1554014805938</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554014805938</updated>
+    </task>
+    <task id="LOCAL-00017" summary="singup created">
+      <created>1554014927209</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554014927209</updated>
+    </task>
+    <task id="LOCAL-00018" summary="singup created">
+      <created>1554102376165</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554102376166</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setting products" />
+    <MESSAGE value="Login form is created" />
+    <MESSAGE value="search field is completed" />
+    <MESSAGE value="Spring data implemented using mysql" />
+    <MESSAGE value="implementing search" />
+    <MESSAGE value="implementing search is completed" />
+    <MESSAGE value="creating singup" />
+    <MESSAGE value="singup created" />
+    <option name="LAST_COMMIT_MESSAGE" value="singup created" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616504982852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616504982852" />
+    <state x="498" y="226" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1616504975791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="226" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1616504975791" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1616688678286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616688678286" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1616688678286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616688678286" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1616688678286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616688678286" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1616688678286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616688678286" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1616504965497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616504965497" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/ItemService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/ItemService.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/controllers/UserController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/UserService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/UserService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/UserService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/services/UserService.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bazaar/controllers/ItemController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

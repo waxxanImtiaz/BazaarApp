@@ -1,0 +1,153 @@
+<html xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+    <script src="https://unpkg.com/vue@2.0.3/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+<div>
+
+    <ul id="example-1">
+        <li v-for="(item, items) in itemList">
+            {{ index }}
+        </li>
+    </ul>
+
+
+<script type="text/javascript "charset="utf-8">
+
+    var example1 = new Vue({
+        el: '#example-1',
+        data: {
+            items: [
+                {category: 'Phone',date: 'Sat Feb 23 18:16:30 PKT 2019',description: '' ,id: '',images: '',itemName: 'OPPO A37',location: 'PECHS Block 6',phoneNumber: '03002639694'
+                    ,price: 'Rs.14,000',publisherId: 'Imtiaz Ali'}
+                ,
+                {category: 'Phone',date: 'Sat Feb 23 18:16:30 PKT ',description: '' ,id: '',images: '',itemName: 'OPPO A37',location: 'PECHS Block 6',phoneNumber: '03002639694'
+                    ,price: 'Rs.14,000',publisherId: 'Imtiaz Ali'}
+            ]
+        },
+
+        created: function(){
+            this.loadQuote();
+        }
+
+        ,
+        computed: {
+            itemList :function() {
+                return this.items
+            }
+        }
+        ,
+        methods:{
+            loadQuote: function(){
+
+                //this.items = [{message:"imtiaz"},{message:"hello world"}];
+                // this.itemData = 'Loading....'
+                //   var vm = info;
+                axios.get('http://localhost:8111/list/Phone').then(function (response)
+                {
+                    // alert('success');
+                    var data = [];
+
+
+                    for(var x in response.data){
+                        var d = {};
+                        d['id'] = response.data[x].id;
+                        d['itemName'] = response.data[x].itemName;
+                        d['date'] = response.data[x].date;
+                        d['price'] = response.data[x].price;
+                        d['category'] = response.data[x].category;
+                        d['publisherId'] = response.data[x].publisherId;
+                        d['description'] = response.data[x].description;
+                        d['phoneNumber'] = response.data[x].phoneNumber;
+                        d['location'] = response.data[x].location;
+                        d['images'] = response.data[x].images;
+                        data.push(d);
+
+                        //console.log(d['itemName']);
+
+                    }
+                    items = data;
+
+                    for(var z in items) {
+                        console.log(items[z].itemName);
+                        console.log(items[z].id);
+                        console.log(items[z].description);
+                        console.log(items[z].phoneNumber);
+                        console.log(items[z].location);
+                    }
+                    //debugger
+
+                  //  this.items
+                })
+                    .catch(function (error){
+                        //vm.itemData = 'An error occured. '+error;
+                    });
+            }
+        }
+
+    })
+
+   // var example1 = new Vue({
+   //     el: '#app',
+   //     data: {
+   //         info: "hello "
+   //     },
+   //
+   //         created: function(){
+   //             this.loadQuote();
+   //         }
+   //
+   //         ,
+   //         methods:{
+   //             loadQuote: function(){
+   //                // this.itemData = 'Loading....'
+   //              //   var vm = info;
+   //                 axios.get('http://localhost:8111/list/Phone').then(function (response)
+   //                 {
+   //                     debugger
+   //                     // alert('success');
+   //
+   //                     this.info = response.data;
+   //                    console.log(this.info);
+   //                 })
+   //                     .catch(function (error){
+   //                         //vm.itemData = 'An error occured. '+error;
+   //                     });
+   //             }
+   //         }
+   // })
+    //
+    // new Vue({
+    //     el: '#example-1',
+    //     data : {
+    //         itemList:[]
+    //     },
+    //     created: function(){
+    //         this.loadQuote();
+    //     }
+    //     ,
+    //     methods:{
+    //         loadQuote: function(){
+    //            // this.itemData = 'Loading....'
+    //             var vm = this;
+    //             axios.get('http://localhost:8111/list/Phone').then(function (response)
+    //             {
+    //                 debugger
+    //                 // alert('success');
+    //                 itemList = response.data;
+    //                 console.log(itemList);
+    //             })
+    //                 .catch(function (error){
+    //                     //vm.itemData = 'An error occured. '+error;
+    //                 });
+    //         }
+    //     }
+    // });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="stardust-3rdparty-public" />
+      <option name="name" value="stardust-3rdparty-public" />
+      <option name="url" value="http://archive.eclipse.org/stardust/maven/3rdparty/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iaf-java-releases" />
+      <option name="name" value="iaf-java-releases" />
+      <option name="url" value="https://infinity.sungard.com/repository/iaf-java-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="stardust-3rdparty" />
+      <option name="name" value="stardust-3rdparty" />
+      <option name="url" value="http://archive.eclipse.org/stardust/maven/3rdparty" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ipp-libs" />
+      <option name="name" value="ipp-libs" />
+      <option name="url" value="https://infinity.sungard.com/repository/ipp-libs/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2-repository.java.net" />
+      <option name="name" value="maven2-repository.java.net" />
+      <option name="url" value="http://download.java.net/maven/2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="stardust-releases" />
+      <option name="name" value="stardust-releases" />
+      <option name="url" value="http://download.eclipse.org/stardust/maven/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="stardust-snapshots" />
+      <option name="name" value="stardust-snapshots" />
+      <option name="url" value="http://download.eclipse.org/stardust/maven/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ipp-3rd-party" />
+      <option name="name" value="ipp-3rd-party" />
+      <option name="url" value="https://infinity.sungard.com/repository/ipp-3rd-party/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public-jboss" />
+      <option name="name" value="public-jboss" />
+      <option name="url" value="http://repository.jboss.org/nexus/content/groups/public-jboss" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mavenCentral" />
+      <option name="name" value="mavenCentral" />
+      <option name="url" value="http://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ipp-releases" />
+      <option name="name" value="ipp-releases" />
+      <option name="url" value="https://infinity.sungard.com/repository/ipp-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="stardust-3rdparty-eclipse" />
+      <option name="name" value="stardust-3rdparty-eclipse" />
+      <option name="url" value="http://archive.eclipse.org/stardust/maven/3rdparty/eclipse" />
+    </remote-repository>
+  </component>
+</project>

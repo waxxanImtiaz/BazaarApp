@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1" author="imtiaz">
+        <createTable tableName="item">
+            <column name="id" autoIncrement="true" type="int">
+                <constraints primaryKey="true"  nullable="false"/>
+            </column>
+            <column name="itemName" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="publisherId" type="varchar(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="description" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+
+            <column name="price" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+
+            <column name="location" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+
+            <column name="images" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+
+            <column name="category" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+
+
+            <column name="phoneNumber" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="active" type="boolean" defaultValueBoolean="true"/>
+
+        </createTable>
+        <rollback>
+            <dropTable tableName="item"/>
+        </rollback>
+<!--        catalogName="cat"-->
+<!--        dbms="h2, oracle"-->
+<!--        schemaName="public"-->
+<!--        tableName="person">-->
+<!--        -->
+
+
+<!--        <insert tableName="item">-->
+<!--            <column name="id" value="2" />-->
+<!--            <column name="category" value="Phone"/>-->
+<!--            <column name="date" value="2019-3-1"/>-->
+<!--            <column name="itemName"-->
+<!--                    value="OPPO A37"/>-->
+<!--            <column name="price" value="Rs. 50,00"/>-->
+
+<!--            <column name="description" value="This is mobile"/>-->
+<!--            <column name="location" value="PECHS Block 6"/>-->
+<!--            <column name="phoneNumber" value="03002639694"/>-->
+<!--            <column name="images" value="images/products/1.jpg"/>-->
+<!--            <column name="publisherId" value="Imtiaz Ali"/>-->
+<!--        </insert>-->
+<!--        <insert tableName="item">-->
+<!--            <column name="id" value="3" />-->
+<!--            <column name="category" value="Phone"/>-->
+<!--            <column name="date" value="2019-3-1"/>-->
+<!--            <column name="itemName"-->
+<!--                    value="OPPO A37"/>-->
+<!--            <column name="price" value="Rs. 50,00"/>-->
+
+<!--            <column name="description" value="This is mobile"/>-->
+<!--            <column name="location" value="PECHS Block 6"/>-->
+<!--            <column name="phoneNumber" value="03002639694"/>-->
+<!--            <column name="images" value="images/products/1.jpg"/>-->
+<!--            <column name="publisherId" value="Imtiaz Ali"/>-->
+<!--        </insert>-->
+    </changeSet>
+
+</databaseChangeLog>
